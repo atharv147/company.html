@@ -1,0 +1,235 @@
+<html>
+
+<head>
+    <title>CSS Box Model – Practice Lab</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-weight: bold;
+            color: #000000;
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+            color: #333333;
+        }
+
+        .section {
+            background: rgb(196, 151, 151);
+            padding: 30px;
+            margin: 30px;
+        }
+
+        /* Task 1 */
+        .box1 {
+            border: 2px solid black;
+            padding: 15px;
+            width: 300px;
+            background: #eee;
+        }
+
+        /* Task 2 */
+        .box2 {
+            margin: 0;
+            border: 2px dashed blue;
+            padding: 10px;
+            width: 300px;
+            margin-bottom: 1px;
+            background: #eee;
+        }
+
+        /* Task 3 */
+        .box3 {
+            width: 300px;
+            background: grey;
+            border: 3px solid black;
+            padding: 15px;
+            margin: 15px;
+        }
+
+        /* Task 4 */
+        .box4 {
+            width: 300px;
+            padding: 20px;
+            border: 5px solid black;
+            background: #eee;
+        }
+
+        /* Task 5 */
+        .card {
+            width: 300px;
+            border: 2px solid black;
+            padding: 15px;
+            background: #eee;
+        }
+
+        /* Task 6 */
+        .box6 {
+            width: 300px;
+            padding: 20px;
+            border: 5px solid rgb(150, 4, 55);
+            box-sizing: border-box;
+            background: #eee;
+        }
+
+        /* Task 7 */
+        .card7 {
+            width: 200px;
+            border: 2px solid black;
+            margin: 20px 0;
+            padding: 10px;
+            background: #eee;
+        }
+
+        /* Task 8 */
+        .box8 {
+            width: 200px;
+            border: 2px solid black;
+            padding: 15px;
+            background: #eee;
+        }
+
+        /* Task 9 */
+        .product {
+            width: 300px;
+            border: 3px solid black;
+            padding: 25px;
+            background: #eee;
+        }
+
+        .product .name {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .product .desc {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .product .price {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        /* Task 10 */
+        .btn {
+            cursor: pointer;
+            padding: 10px 20px;
+            margin: 10px;
+            border: 2px solid black;
+        }
+
+        /* Task 11 */
+        .box11 {
+            padding: 30px;
+            background: lightgrey;
+            border: 2px solid black;
+        }
+
+        /* Task 12 */
+        .box12 {
+            width: 300px;
+            padding: 20px;
+            border: 5px solid green;
+            box-sizing: border-box;
+            background: #eee;
+        }
+
+        /* Task 14 */
+        .image-card {
+            width: 250px;
+            border: 2px solid black;
+            padding: 60px;
+            background: #eee;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Box Model – Practice Lab</h1>
+    <h3>Complete all tasks using <strong>padding, border, margin and box-sizing</strong>. Use DevTools to inspect the
+        box model</h2>
+
+        <div class="section">
+            <h3>Task 1</h3>
+            <div class="box1">Simple text content</div>
+        </div>
+
+        <div class="section">
+            <h3>Task 2</h3>
+            <div class="box2">Box One</div>
+            <div class="box2">Box Two</div>
+        </div>
+
+        <div class="section">
+            <h3>Task 3</h3>
+            <div class="box3">Control vertical spacing</div>
+        </div>
+
+        <div class="section">
+            <h3>Task 4</h3>
+            <div class="box4">Total width increases</div>
+        </div>
+
+        <div class="section">
+            <h3>Task 5</h3>
+            <div class="card">Image / Text not touching border</div>
+        </div>
+
+        <div class="section">
+            <h3>Task 6</h3>
+            <div class="box6">Width stays 300px</div>
+        </div>
+
+        <div class="section">
+            <h3>Task 7</h3>
+            <div class="card7">Card One</div>
+            <div class="card7">Card Two</div>
+        </div>
+
+        <div class="section">
+            <h3>Task 8</h3>
+            <div class="box8">Padding used correctly</div>
+        </div>
+
+        <div class="section">
+            <h3>Task 9</h3>
+
+            <div class="product">
+                <div class="name">Product Name</div>
+                <div class="desc">Description goes here</div>
+                <div class="price">$99</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Task 10</h3>
+            <button class="btn">Buy</button>
+            <button class="btn">Cart</button>
+        </div>
+
+        <div class="section">
+            <h3>Task 11</h3>
+            <div class="box11">Background expands</div>
+        </div>
+
+        <div class="section">
+            <h3>Task 12</h3>
+            <div class="box12">Fixed width</div>
+        </div>
+
+        <div class="section">
+            <h3>Task 14</h3>
+            <div class="image-card">Image spacing fixed</div>
+        </div>
+
+</body>
+
+</html>
